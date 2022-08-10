@@ -3,8 +3,8 @@ let buttonColours = ["red", "green", "blue", "yellow"];
 let gamePattern = [];
 let userClickedPattern = [];
 
-var start = false;
-var level = 0;
+let start = false;
+let level = 0;
 
 $(document).keypress(function(){
     if (!start) {
