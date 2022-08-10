@@ -70,12 +70,12 @@ function checkAnswer(currentLevel){
         playSound("wrong");
         $("body").addClass("game-over")
         $("#level-title").text("Game Over, Press any key to restart")
-        $(document).keypress(function(){
+        
             setTimeout(function(){
                 $("body").removeClass("game-over");
             },100)
             startOver();
-        })
+        
     }
 }
 
